@@ -1,0 +1,26 @@
+# File validator0.toml
+
+[parity]
+chain = "spec.json"
+base_path = "validator0"
+
+[network]
+port = 30300
+#bootnodes = []
+
+[rpc]
+disable = false
+port = 8540
+interface = "local"
+apis = ["web3","eth","net","personal","parity","parity_set","traces","rpc","parity_accounts"]
+
+[websockets]
+disable = true
+
+[account]
+#password = [""]
+
+[mining]
+#engine_signer = ""
+reseal_on_txs = "none"
+force_sealing = true
