@@ -1,16 +1,16 @@
-# File validator0.toml
+# File validator1.toml
 
 [parity]
 chain = "spec.json"
-base_path = "validator0"
+base_path = "validator1"
 
 [network]
-port = 30300
+port = 30301
 #bootnodes = []
 
 [rpc]
 disable = false
-port = 8540
+port = 8541
 interface = "local"
 apis = ["web3","eth","net","personal","parity","parity_set","traces","rpc","parity_accounts"]
 
@@ -18,9 +18,9 @@ apis = ["web3","eth","net","personal","parity","parity_set","traces","rpc","pari
 disable = true
 
 [account]
-password = ["haha"]
+password = ["validator1.pwd"]
 
 [mining]
-engine_signer = "0x8b0e86bcdefb05596bc9c27e3fefff9fe77312d9"
+engine_signer = "0xcece984d7c0bc5523c8d86b4d389a4414e0804a9"
 reseal_on_txs = "none"
 force_sealing = true
