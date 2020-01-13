@@ -977,3 +977,5 @@
 2020/01/13-21:47:14.303526 11bd41dc0 EVENT_LOG_v1 {"time_micros": 1578932234303518, "job": 1, "event": "recovery_finished"}
 2020/01/13-21:47:14.304049 11bd41dc0 [/Users/administrator/builds/5c347df3/1/parity/parity-ethereum/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-rocksdb-sys-0.5.6/rocksdb/db/db_impl_files.cc:477] [JOB 2] Delete info log file validator1/chains/spec.json/db/534efbc542be4adc/overlayrecent/db//LOG.old.1578932234292968
 2020/01/13-21:47:14.316628 11bd41dc0 [/Users/administrator/builds/5c347df3/1/parity/parity-ethereum/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-rocksdb-sys-0.5.6/rocksdb/db/db_impl_open.cc:1219] DB pointer 0x7f8997800000
+2020/01/13-21:53:08.081495 70000fa52000 [/Users/administrator/builds/5c347df3/1/parity/parity-ethereum/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-rocksdb-sys-0.5.6/rocksdb/db/db_impl.cc:252] Shutdown: canceling all background work
+2020/01/13-21:53:08.082210 70000fa52000 [/Users/administrator/builds/5c347df3/1/parity/parity-ethereum/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-rocksdb-sys-0.5.6/rocksdb/db/db_impl.cc:398] Shutdown complete
